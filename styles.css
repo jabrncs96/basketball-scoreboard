@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "scoreboard";
+    src: url(./cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf);
+}
+
+body{
+    text-align: center;
+    background-color: #14213d;
+}
+
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+}
+
+.score{
+    background: #080001;
+    height: 209px;
+    width: 270px;
+    color: #F94F6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "scoreboard", sans-serif;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 4.5em;
+    margin-bottom: 21px;
+}
+
+h2{
+    font-size: 10.5em;
+    margin-top: 30px;
+}
+
+.points{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 26px;
+}
+
+.point{
+    height: 69px;
+    width: 70px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "scoreboard", sans-serif;
+    font-size: 1.5em;
+    color: #9AABD8;
+    cursor: pointer;
+}
+
+.names{
+    color: #F3F4F6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 0px 3px black;
+}
+
+#new-game{
+    margin-top: 30px;
+    font-family: "scoreboard", sans-serif;
+}
+
+#btn-new-game{
+    background-color: #c1121f;
+    color: #F3F4F6;
+    font-size: 3em;
+    text-shadow: 0px 0px 3px black;
+    padding: 7px 10px 5px 8px;
+    font-family: "scoreboard", sans-serif;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
